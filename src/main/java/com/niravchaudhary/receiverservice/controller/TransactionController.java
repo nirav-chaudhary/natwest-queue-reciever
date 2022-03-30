@@ -18,7 +18,7 @@ import lombok.extern.slf4j.Slf4j;
 
 
 @RestController
-@RequestMapping(value = "/transaction")
+@RequestMapping(value = "receiver-service/transaction")
 @Slf4j
 public class TransactionController {
 	
